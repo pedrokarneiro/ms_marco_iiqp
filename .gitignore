@@ -1,0 +1,271 @@
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / linting caches
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# ------------------------------------------------------------
+# Virtual environments
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------
+# Jupyter / Google Colab
+# ------------------------------------------------------------
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+.jupyter/
+
+# Colab temporary/local files
+*.ipynb_checkpoints
+
+# ------------------------------------------------------------
+# MS MARCO DATA
+# ------------------------------------------------------------
+# Raw MS MARCO collection
+data/collection.tsv
+data/collection.tar.gz
+data/*.tsv
+data/*.tar.gz
+data/*.gz
+
+# Any downloaded datasets accidentally placed elsewhere
+collection.tsv
+collection.tar.gz
+
+# ------------------------------------------------------------
+# INDEXING OUTPUT
+# ------------------------------------------------------------
+# Final index
+index/
+indexes/
+data/index/
+data/indexes/
+
+# Posting files
+*.postings
+*.posting
+*.postings.bin
+*.posting.bin
+
+# Lexicon / dictionary files
+*.lexicon
+*.dict
+*.dictionary
+
+# Document tables
+*.doctable
+*.doc_table
+*.documents
+
+# Collection statistics
+*.stats
+
+# Binary index files
+*.bin
+
+# Memory-mapped index files
+*.mmap
+
+# ------------------------------------------------------------
+# INTERMEDIATE INDEXING RUNS
+# ------------------------------------------------------------
+# Blocked / intermediate posting runs
+runs/
+data/runs/
+index_runs/
+intermediate_runs/
+*.run
+*.runs
+*.run.*
+*.tmp
+*.temp
+
+# Temporary merge files
+*.merge
+*.merge.*
+merge_tmp/
+tmp_runs/
+
+# ------------------------------------------------------------
+# DEVELOPMENT DATA
+# ------------------------------------------------------------
+# Local development subsets
+data/dev/
+data/development/
+data/toy/
+data/test/
+
+# Keep documentation files in data directories if needed
+!data/**/README.md
+
+# ------------------------------------------------------------
+# QUERY RESULTS / EVALUATION OUTPUT
+# ------------------------------------------------------------
+# Generated TREC run files
+results/
+runs_results/
+evaluation/
+evaluation_results/
+*.trec
+*.runfile
+
+# Generated evaluation tables
+*.csv
+*.tsv
+
+# Allow explicitly tracked small CSV/TSV files when necessary
+# Uncomment and customize if your repository needs them:
+# !results/example.csv
+
+# ------------------------------------------------------------
+# LOGS
+# ------------------------------------------------------------
+*.log
+logs/
+*.out
+
+# ------------------------------------------------------------
+# PERFORMANCE / PROFILING OUTPUT
+# ------------------------------------------------------------
+*.prof
+*.profile
+profile/
+profiling/
+benchmarks/
+benchmark_results/
+
+# ------------------------------------------------------------
+# GENERATED PLOTS / FIGURES
+# ------------------------------------------------------------
+# Uncomment these if plots are generated automatically.
+# figures/
+# plots/
+
+# Common generated image files
+# *.png
+# *.jpg
+# *.jpeg
+# *.svg
+
+# ------------------------------------------------------------
+# PICKLE / SERIALIZED OBJECTS
+# ------------------------------------------------------------
+# The project specification allows pickle for some index
+# metadata, but generated index files should not be committed.
+*.pkl
+*.pickle
+
+# ------------------------------------------------------------
+# LOCAL CONFIGURATION / SECRETS
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# Local machine configuration
+config.local.*
+config_local.*
+local_config.*
+
+# ------------------------------------------------------------
+# OPERATING SYSTEM
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ------------------------------------------------------------
+# IDEs / EDITORS
+# ------------------------------------------------------------
+# Visual Studio Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------------------------------------
+# Temporary files
+# ------------------------------------------------------------
+*.swp
+*.swo
+*.bak
+*.backup
+*.old
+*.orig
+
+# Generic temporary directories
+tmp/
+temp/
+.cache/
+
+# ------------------------------------------------------------
+# Google Drive / Colab local artifacts
+# ------------------------------------------------------------
+# Do not commit mounted/local Drive artifacts
+drive/
+# ------------------------------------------------------------
+# Large generated files
+# ------------------------------------------------------------
+# Uncomment only if these are generated by the project:
+# *.dat
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# ------------------------------------------------------------
+# IMPORTANT
+# ------------------------------------------------------------
+# Do NOT ignore:
+#
+# README.md
+# *.ipynb
+# *.py
+# tests/
+# src/
+# requirements.txt
+# .gitignore
+#
+# These are part of the project source and documentation.
